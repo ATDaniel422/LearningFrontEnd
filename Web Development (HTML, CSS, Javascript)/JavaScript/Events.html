@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Events</title>
+    <script language="javascript" type="text/javascript">
+        function onButtonClick() {
+            alert("you have successfully pressed the button");
+        }
+        function whenPageLoads() {
+            alert("Welcome to my page");
+        }
+    </script>
+</head>
+
+<body onload="whenPageLoads()">
+    
+    <input type="button" value="Press Me" onclick="onButtonClick()"/>
+
+</body>
+</html>

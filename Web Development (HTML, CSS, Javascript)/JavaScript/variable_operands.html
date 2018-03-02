@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Variable Operators</title>
+</head>
+
+<body>
+    <script language="javascript" type="text/javascript">
+        var operandOne;
+        var operandTwo;
+        operandOne = 125;       //Integer
+        operandTwo = 15.371;    //Floating-Point
+        
+        document.write(operandOne);
+        document.write("<br/>");
+        document.write(operandTwo);
+        document.write("<br/>");
+        document.write("Addition " + (operandOne + operandTwo));
+        document.write("<br/>Subtraction " + (operandOne - operandTwo));
+        document.write("<br/>Multiplication " + (operandOne * operandTwo));
+        document.write("<br/>Division " + (operandOne / operandTwo));
+        document.write("<br/>Modulous 10 % 3 = " + (10 % 3));
+        document.write("<br/>Modulous 11 % 3 = " + (11 % 3));
+        operandOne++;           //Increment Operator
+        operandTwo--;           //Decrement Operator
+        document.write("<br/>OperandOne = " + operandOne);
+        document.write("<br/>OperandTwo = " + operandTwo);
+        /*
+            variable++      <--- PostFix Increment Operator
+            ++variable      <--- PreFix Incremenet Operator
+            
+            PostFix- The rest of the mathematical expression is evaluated
+            and then the increment takes place
+            
+            PreFix- The increment takes place and then the rest of the
+            expression is evaluated         
+         */
+        var teamCity;
+        var teamName;
+        
+        teamCity = "New York";
+        teamName = "Yankees";
+        var fullTeamInfo = teamCity + " " + teamName;
+        document.write("<br/>" + fullTeamInfo);
+    </script>
+
+</body>
+</html>

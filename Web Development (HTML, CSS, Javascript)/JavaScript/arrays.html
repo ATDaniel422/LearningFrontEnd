@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Basic Arrays</title>
+</head>
+
+<body>
+    <script language="javascript" type="text/javascript">
+        var firstNames = new Array();
+        firstNames[0] = "Mark";
+        firstNames[1] = "Colleen";
+        firstNames[2] = "Brett";
+        firstNames[3] = "Joan";
+        firstNames[4] = "Rick";
+        
+        var animals = new Array("dog", "cat", "mouse", "hampster", "toad");
+        
+        var companies = ["Apple", "Google", "Cnet", "Udemy", "GE"];
+        
+        alert(firstNames[3]);
+        alert(animals[0]);
+        alert(companies[1]);
+        
+        for (var i = 0; i < firstNames.length; i++) {
+            document.write(firstNames[i]);
+            document.write("<br/>");
+        }
+    </script>
+    
+</body>
+</html>

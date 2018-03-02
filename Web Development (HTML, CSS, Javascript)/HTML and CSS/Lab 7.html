@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Lab 7: Forms</title>
+    <style type="text/css">
+        table {
+            border: 2px solid black;
+            font-family: Arial;
+            background-color: #EEEEEE; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Hospital Admission Information</h1>
+    <form action="#" method="post">
+    <table border="1">
+            <tr>
+                <th>Form Field</th><th>Type of field</th>
+            </tr>
+            <tr>
+                <td>First Name</td><td><input type="text" name="first" id="first"/></td>
+            </tr>
+            <tr>
+                <td>Last Name</td><td><input type="text" name="last" id="last"/></td>
+            </tr>
+            <tr>
+                <td>Email Address</td><td><input type="text" name="email" id="email"/></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td><td><input type="text" name="phone" id="phone"/></td>
+            </tr>
+            <tr>
+                <td>Street Address</td><td><input type="text" name="address" id="address"/></td>
+            </tr>
+            <tr>
+                <td>City</td><td><input type="text" name="city" id="city"/></td>
+            </tr>
+            <tr>
+                <td>Zip Code</td><td><input type="text" name="zip" id="zip"/></td>
+            </tr>
+            <tr>
+                <td>State</td><td><select name="state">
+                        <option value="md">Maryland</option>
+                        <option value="oh">Ohio</option>
+                        <option value="pa">Pennsylvania</option>
+                        <option value="nj">New Jersey</option>
+                        <option value="ny">New York</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Age</td><td><input type="number" name="age" min="0" max="115"</td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td>
+                    <select name="month">
+                        <option value="jan">January</option>
+                        <option value="feb">February</option>
+                        <option value="mar">March</option>
+                        <option value="apr">April</option>
+                        <option value="may">May</option>
+                        <option value="jun">June</option>
+                        <option value="jul">July</option>
+                        <option value="aug">August</option>
+                        <option value="sep">September</option>
+                        <option value="oct">October</option>
+                        <option value="nov">November</option>
+                        <option value="dec">December</option>
+                    </select>
+                    <select name="day">
+                        <option value="1">1</option>
+                        <option value="dec">2</option>
+                        <option value="dec">3</option>
+                        <option value="dec">4</option>
+                        <option value="dec">5</option>
+                        <option value="dec">6</option>
+                        <option value="dec">7</option>
+                        <option value="dec">8</option>
+                        <option value="dec">9</option>
+                        <option value="dec">10</option>
+                        <option value="dec">11</option>
+                        <option value="dec">12</option>
+                        <option value="dec">13</option>
+                        <option value="dec">14</option>
+                        <option value="dec">15</option>
+                        <option value="dec">16</option>
+                        <option value="dec">17</option>
+                        <option value="dec">18</option>
+                        <option value="dec">19</option>
+                        <option value="dec">20</option>
+                        <option value="dec">21</option>
+                        <option value="dec">22</option>
+                        <option value="dec">23</option>
+                        <option value="dec">24</option>
+                        <option value="dec">25</option>
+                        <option value="dec">26</option>
+                        <option value="dec">27</option>
+                        <option value="dec">28</option>
+                        <option value="dec">29</option>
+                        <option value="dec">30</option>
+                        <option value="dec">31</option>
+                    </select>
+                    <input type="text" name="year" id="year"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" value="male" name="gender"/>Male
+                    <input type="radio" value="female" name="gender"/>Female
+                </td>
+            </tr>
+            <tr>
+                <td>Health History</td>
+                <td>
+                    <input type="checkbox" value="heart attack" name="history"/>Heart Attack <br/>
+                    <input type="checkbox" value="stroke" name="history"/>Stroke <br/>
+                    <input type="checkbox" value="cancer" name="history"/>Cancer<br/>
+                    <input type="checkbox" value="hypertension" name="history"/>Hypertension<br/>
+                    <input type="checkbox" value="Depression" name="history"/>Depression <br/>
+                    <input type="checkbox" value="COPD" name="history"/>COPD <br/>
+                    <input type="checkbox" value="other" name="history"/>Other
+                    <input type="text" name="other"/>                    
+                </td>
+            </tr>
+            <tr>
+                <td><input type="reset"/></td>
+                <td><input type="submit"/></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
